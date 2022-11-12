@@ -7,6 +7,11 @@
   border: 1px solid lightgray;
 }
 
+.example-card2 {
+  max-width: 600px;
+  border: 1px solid lightgray;
+}
+
 button.mat-warn,
 .mat-fab.mat-warn,
 .mat-mini-fab.mat-warn {
@@ -22,6 +27,13 @@ h1 {
   line-height: 4.375rem;
   font-family: Gotham-XLight;
   padding-bottom: 0.625rem;
+}
+
+.img {
+  background-size: cover;
+  aspect-ratio: 1;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 .title {

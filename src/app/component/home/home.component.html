@@ -6,8 +6,97 @@
         <div class="row">
             <div class="col-sm-4" *ngFor="let c of cards">
                 <mat-card class="example-card mt-5">
-                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-                        alt="Photo of a Shiba Inu">
+                    <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <mat-card-header>
+                            <mat-card-title class="title">{{c.title}}</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <p class="text-center desc">{{c.desc}}</p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-raised-button color="warn">{{c.button}}</button>
+                        </mat-card-actions>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="heading">
+            <h1>Destinations we love...</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let c of cards1">
+                <mat-card class="example-card mt-5">
+                    <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <mat-card-header>
+                            <mat-card-title class="title">{{c.title}}</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <p class="text-center desc">{{c.desc}}</p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-raised-button color="warn">{{c.button}}</button>
+                        </mat-card-actions>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="heading">
+            <h1>Next level flying...</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" *ngFor="let c of cards2">
+                <mat-card class="example-card2 mt-5">
+                    <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <mat-card-header>
+                            <mat-card-title class="title">{{c.title}}</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <p class="text-center desc">{{c.desc}}</p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-raised-button color="warn">{{c.button}}</button>
+                        </mat-card-actions>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="heading">
+                    <h2>Need Help With Your Booking?</h2>
+                    <p class="desc">Call us on our toll free number 1800 102 3000 or on +91 124 469 3030 from Monday to
+                        Saturday between 9.15am to 5:15pm.</p>
+                    <p class="desc">Alternatively you can email us on<a href="#">India.reservations@fly.virgin.com.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <mat-card-actions>
+                    <button mat-raised-button color="warn">All Contact Details <span>
+                            <mat-icon class="mt-3">trending_flat</mat-icon>
+                        </span></button>
+                </mat-card-actions>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let c of cards3">
+                <mat-card class="example-card2 mt-5">
+                    <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
                     <div style="display: flex; align-items: center; flex-direction: column;">
                         <mat-card-header>
                             <mat-card-title class="title">{{c.title}}</mat-card-title>
