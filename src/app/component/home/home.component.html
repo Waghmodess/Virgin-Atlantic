@@ -1,19 +1,26 @@
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4" *ngFor="let c of cards">
-            <mat-card class="example-card">
-                <mat-card-header>
-                    <mat-card-title>{{c.title}}</mat-card-title>
-                </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-                    alt="Photo of a Shiba Inu">
-                <mat-card-content>
-                    <p>{{c.desc}}</p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <button mat-raised-button color="warn">{{c.button}}</button>
-                </mat-card-actions>
-            </mat-card>
+<div class="home">
+    <div class="container">
+        <div class="heading">
+            <h1>Flights from India...</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let c of cards">
+                <mat-card class="example-card mt-5">
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                        alt="Photo of a Shiba Inu">
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <mat-card-header>
+                            <mat-card-title class="title">{{c.title}}</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <p class="text-center desc">{{c.desc}}</p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-raised-button color="warn">{{c.button}}</button>
+                        </mat-card-actions>
+                    </div>
+                </mat-card>
+            </div>
         </div>
     </div>
 </div>

@@ -1,10 +1,42 @@
-.example-card {
-  max-width: 400px;
+.home {
+  background-color: #f6f6f6;
 }
 
-.sachin {
-  background-image: url("//content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210728T1218583200400.html/content/dam/Everymundo/london%20hero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+.example-card {
+  max-width: 400px;
+  border: 1px solid lightgray;
+}
+
+button.mat-warn,
+.mat-fab.mat-warn,
+.mat-mini-fab.mat-warn {
+  background-color: #da0530;
+}
+
+h1 {
+  color: #da0530;
+  background-color: #da0530;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.375rem;
+  line-height: 4.375rem;
+  font-family: Gotham-XLight;
+  padding-bottom: 0.625rem;
+}
+
+.title {
+  color: #61126b;
+  font-family: Gotham-Light;
+  font-size: 1.4375rem;
+  line-height: 1.6875rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.desc {
+  font-family: Gotham-Book;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #222;
+  width: 100%;
 }
