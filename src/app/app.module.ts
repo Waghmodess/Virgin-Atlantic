@@ -8,11 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { HeaderComponent } from './component/header/header.component';
+import { UnderConstructionComponent } from './component/under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,

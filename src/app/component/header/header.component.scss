@@ -1,0 +1,32 @@
+  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+      color: rgba(0, 0, 0, .9);
+      // color: #009900 !important;
+      font-weight: 600;
+  }
+
+  .nav-link{
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  a:hover {
+      cursor: pointer !important;
+  }
+
+  .navbar-collapse{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+a.nav-link {
+  color: #61126b !important;
+}
+
+a:hover {
+  cursor: pointer !important;
+}
