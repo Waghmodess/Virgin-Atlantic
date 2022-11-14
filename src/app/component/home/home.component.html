@@ -1,5 +1,17 @@
 <div class="home">
-    <div class="container">
+    <div class="flight-img" style="background-image: url('{{imgUrl}}');">
+        <div class="container flight-container">
+            <div class="flight-title">
+                <h1 class="text-white">Fantastic Fares to <br> the UK and beyond</h1>
+            </div>
+            <div>
+                <mat-card-actions>
+                    <button mat-raised-button color="warn">Find Flights</button>
+                </mat-card-actions>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
         <div class="heading">
             <h1>Flights from India...</h1>
         </div>
@@ -43,6 +55,26 @@
                         </mat-card-actions>
                     </div>
                 </mat-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-7">
+
+            </div>
+            <div class="col-sm-5">
+                <div class="heading">
+                    <h2>Our best student offer</h2>
+                    <p class="desc">Book a flight from Delhi or Mumbai to London or to any of our US destinations, and
+                        on departure from India you’ll enjoy amazing baggage benefits...</p>
+                </div>
+                <mat-card-actions>
+                    <button mat-raised-button color="warn">Find out more<span>
+                            <mat-icon class="mt-3">trending_flat</mat-icon>
+                        </span></button>
+                </mat-card-actions>
             </div>
         </div>
     </div>
@@ -95,6 +127,30 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-4" *ngFor="let c of cards3">
+                <mat-card class="example-card2 mt-5">
+                    <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
+                    <div style="display: flex; align-items: center; flex-direction: column;">
+                        <mat-card-header>
+                            <mat-card-title class="title">{{c.title}}</mat-card-title>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <p class="text-center desc">{{c.desc}}</p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-raised-button color="warn">{{c.button}}</button>
+                        </mat-card-actions>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="heading">
+            <h1>Flying with us...</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let c of cards4">
                 <mat-card class="example-card2 mt-5">
                     <div mat-card-image class="img" style="background-image: url('{{c.img}}');"></div>
                     <div style="display: flex; align-items: center; flex-direction: column;">

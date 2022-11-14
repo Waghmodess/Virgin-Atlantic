@@ -40,6 +40,7 @@ export interface Card4 {
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  imgUrl: string = "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210420T0745482110400.html/content/dam/Everymundo/web-exclusive-deals.jpg"
 
   constructor() { }
 
@@ -135,6 +136,27 @@ export class HomeComponent implements OnInit {
       img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20200807T1043203720400.html/content/dam/vaa/Site%20Imagery/homepage/idp/hero/desktop/Covid-19-homepage.jpg",
       title: "COVID-19 Travel Advice",
       desc: "Check the latest travel updates for your destination.",
+      button: "Find out more"
+    }
+  ]
+
+  cards4: Card4[] = [
+    {
+      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210215T1252489220500.html/content/dam/vaa/Site%20Imagery/homepage/idp/featured/Check%20in.png",
+      title: "Inflight entertainment",
+      desc: "The hours will fly by, with over 100 movies onboard - from the latest Hollywood Blockbusters to indie gems.",
+      button: "Now Showing"
+    },
+    {
+      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210215T1252489220500.html/content/dam/vaa/Site%20Imagery/homepage/idp/featured/Check%20in.png",
+      title: "Baggage unpacked",
+      desc: "All you need to know about baggage allowance, what you can/can't take onboard and everything else inbetween.",
+      button: "Come this way"
+    },
+    {
+      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20180816T0715070240400.html/content/dam/vaa/Site%20Imagery/flying-club/earning-and-spending-miles/clubhouse-spa-image.jpg",
+      title: "Flying Club",
+      desc: "Join Flying Club for free and earn Virgin Points on every Virgin Atlantic flight, and redeem them on fabulous rewards like upgrades, flights.",
       button: "Find out more"
     }
   ]

@@ -2,6 +2,25 @@
   background-color: #f6f6f6;
 }
 
+.flight-img {
+  background-size: cover;
+  aspect-ratio: 3;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.flight-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.flight-title{
+  padding-top: 15%;
+}
+
 .example-card {
   max-width: 400px;
   border: 1px solid lightgray;
