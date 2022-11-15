@@ -1,12 +1,9 @@
-// .home {
-//   background-color: #f6f6f6;
-// }
-
 .flight-img {
   background-size: cover;
   aspect-ratio: 3;
   width: 100%;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .stud-img {
@@ -14,6 +11,7 @@
   aspect-ratio: 2;
   width: 100%;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .flight-container {
@@ -60,6 +58,7 @@ h1 {
   aspect-ratio: 1;
   height: 100%;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .title {
