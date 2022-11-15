@@ -10,13 +10,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { HeaderComponent } from './component/header/header.component';
 import { UnderConstructionComponent } from './component/under-construction/under-construction.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

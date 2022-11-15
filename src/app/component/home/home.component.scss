@@ -1,10 +1,17 @@
-.home {
-  background-color: #f6f6f6;
-}
+// .home {
+//   background-color: #f6f6f6;
+// }
 
 .flight-img {
   background-size: cover;
   aspect-ratio: 3;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.stud-img {
+  background-size: cover;
+  aspect-ratio: 2;
   width: 100%;
   background-repeat: no-repeat;
 }

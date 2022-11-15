@@ -41,7 +41,7 @@ export interface Card4 {
 })
 export class HomeComponent implements OnInit {
   imgUrl: string = "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210420T0745482110400.html/content/dam/Everymundo/web-exclusive-deals.jpg"
-
+  studImg: string = "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20180704T1226563510400.html/content/dam/vaa/Site%20Imagery/campaigns/hk/student-fares-row.jpg"
   constructor() { }
 
   cards: Card[] = [
