@@ -22,7 +22,7 @@
   flex-wrap: wrap;
 }
 
-.flight-title{
+.flight-title {
   padding-top: 15%;
 }
 
@@ -44,10 +44,20 @@ button.mat-warn,
 
 h1 {
   color: #da0530;
-  font-size: 4.375rem;
+  font-size: 3.375rem;
   line-height: 4.375rem;
   font-family: Gotham-XLight;
   padding-bottom: 0.625rem;
+  font-weight: 500 !important;
+}
+
+h2 {
+  color: #da0530;
+  font-size: 2.375rem;
+  line-height: 4.375rem;
+  font-family: Gotham-XLight;
+  padding-bottom: 0.625rem;
+  font-weight: 500 !important;
 }
 
 .img {
@@ -73,4 +83,6 @@ h1 {
   line-height: 1.75rem;
   color: #222;
   width: 100%;
+  height: 5rem;
+  letter-spacing: -.01rem;
 }

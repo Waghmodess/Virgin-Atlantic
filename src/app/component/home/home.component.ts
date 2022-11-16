@@ -114,7 +114,7 @@ export class HomeComponent implements OnInit {
     {
       img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210125T1406107380500.html/content/dam/vaa/email/Upper.jpg",
       title: "Discover Upper Class",
-      desc: "Experience the next level of luxurious travel, whether you're with us for business or pleasure, travelling in Virgin Atlantic Upper Class.",
+      desc: "Experience the next level of luxurious travel, whether you're with us for business or pleasure, travelling in Virgin Atlantic Upper Class makes your journey something to look forward to.",
       button: "Find out more"
     }
   ]
@@ -156,7 +156,7 @@ export class HomeComponent implements OnInit {
     {
       img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20180816T0715070240400.html/content/dam/vaa/Site%20Imagery/flying-club/earning-and-spending-miles/clubhouse-spa-image.jpg",
       title: "Flying Club",
-      desc: "Join Flying Club for free and earn Virgin Points on every Virgin Atlantic flight, and redeem them on fabulous rewards like upgrades, flights.",
+      desc: "Join Flying Club for free and earn Virgin Points on every Virgin Atlantic flight, and redeem them on fabulous rewards like upgrades, flights and much more.",
       button: "Find out more"
     }
   ]
