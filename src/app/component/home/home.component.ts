@@ -149,13 +149,13 @@ export class HomeComponent implements OnInit {
       button: "Now Showing"
     },
     {
-      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210215T1252489220500.html/content/dam/vaa/Site%20Imagery/homepage/idp/featured/Check%20in.png",
+      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20180816T0715070240400.html/content/dam/vaa/Site%20Imagery/flying-club/earning-and-spending-miles/clubhouse-spa-image.jpg",
       title: "Baggage unpacked",
       desc: "All you need to know about baggage allowance, what you can/can't take onboard and everything else inbetween.",
       button: "Come this way"
     },
     {
-      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20180816T0715070240400.html/content/dam/vaa/Site%20Imagery/flying-club/earning-and-spending-miles/clubhouse-spa-image.jpg",
+      img: "https://content.virginatlantic.com/content/vaa/www/in/en/home.damAssetRender.20210215T1252489220500.html/content/dam/vaa/Site%20Imagery/homepage/idp/featured/Check%20in.png",
       title: "Flying Club",
       desc: "Join Flying Club for free and earn Virgin Points on every Virgin Atlantic flight, and redeem them on fabulous rewards like upgrades, flights and much more.",
       button: "Find out more"
