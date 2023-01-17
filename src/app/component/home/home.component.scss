@@ -86,3 +86,11 @@ h2 {
   height: 5rem;
   letter-spacing: -.01rem;
 }
+
+mat-card:hover {
+  transform: scale(1.1);
+}
+
+mat-card {
+  transition: all 1s ease-in-out;
+}
